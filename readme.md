@@ -26,8 +26,9 @@ When your answer is correct the letter will become  green, confirming that your 
  ![img-example](https://raw.githubusercontent.com/ddmarin94/Pasapalabra-Game/master/img/Captura%20de%20pantalla%202017-07-15%20a%20las%2019.15.03.png)
 
 To Do:
--Refactor code.
--Add new questions.
--Responsive design.
--Add Sass.
--Add Bootstrap.
+ -Refactor code.
+ -Add new questions.
+ -Responsive design.
+ -Add Sass.
+ -Add Bootstrap.
+ -Add a gift on this file.
