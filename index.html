@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pasapalabra</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="Styles/style.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pasapalabra</h1>
+      <div class="questions">
+        <p id="showMe">Bienvenido a Pasapalabra. <br>El juego es sensible a los acentos por lo que no es necesario ponerlos. Pulsa play para empezar. Buena suerte!</p>
+    </div>
+        <ul id="classification">
+          <h2>Clasificación</h2>
+        </ul>
+    <input class="answer hidden "" " type="text" id="introduceAnswer" placeholder="Introduce la respuesta" onkeypress="intro(event)"/>
+        <input type="button" name="Intro" value="ENVIAR" class="hidden "" " id="check" onclick="check() " >
+        <button class="hidden "" " id="pass" onclick="pasapalabra()">Pasapalabra</button>
+        <input type="text" id="name" class=" "" " placeholder="Introduce tu nombre"/>
+        <button class="" id="play" onclick="countdown(); hideButton();">PLAY</button>
+        <button class=" hidden "" " id="play2" onclick="countdown(); beginAgain() ">PLAY</button>
+        <button class="hidden "" " id="restart" onclick="playAgain()" >Play Again</button>
+        <div id="letter">
+          <div class=" one circle">A</div>
+          <div class=" two circle">B</div>
+          <div class=" three circle">C</div>
+          <div class=" four circle">D</div>
+          <div class=" five circle">E</div>
+          <div class=" six circle">F</div>
+          <div class=" seven circle">G</div>
+          <div class=" eight circle">H</div>
+          <div class=" nine circle">I</div>
+          <div class=" ten circle">J</div>
+          <div class=" eleven circle">L</div>
+          <div class=" twelve circle">M</div>
+          <div class=" thirteen circle">N</div>
+          <div class=" fourteen circle">Ñ</div>
+          <div class=" fifteen circle">O</div>
+          <div class=" sixteen circle">P</div>
+          <div class=" seventeen circle">Q</div>
+          <div class=" eighteen circle">R</div>
+          <div class=" nineteen circle">S</div>
+          <div class=" twenty circle">T</div>
+          <div class=" twenty-one circle">U</div>
+          <div class=" twenty-two circle">V</div>
+          <div class=" twenty-three circle">X</div>
+          <div class=" twenty-four circle">Y</div>
+          <div class=" twenty-five circle">Z</div>
+        </div>
+        <div class=" clock"><p id="countdownSecs">130</p></div>
+        <div class=" correct" ><p id="counterCorrect"></p></div>
+        </div>
+        <!-- JS -->
+        <script type="text/javascript" src="app/app.js" ></script>
+  </body>
+</html>
