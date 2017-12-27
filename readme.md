@@ -24,3 +24,11 @@ When your answer is correct the letter will become  green, confirming that your 
  The game will end whe the countdown will be 0 or the user have answered all the questions. Then we will se a clasification table at the right of the interface that show the score of the user. Then will appear an other buttons that allows start a new game.
 
  ![img-example](https://raw.githubusercontent.com/ddmarin94/Pasapalabra-Game/master/img/Captura%20de%20pantalla%202017-07-15%20a%20las%2019.15.03.png)
+
+To Do:
+ -Refactor code.
+ -Add new questions.
+ -Responsive design.
+ -Add Sass.
+ -Add Bootstrap.
+ -Add a gift on this file.
