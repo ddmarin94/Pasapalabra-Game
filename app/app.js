@@ -52,7 +52,6 @@
       add.className += "hidden";
 
       showQuestion()
-      console.log("1")
   }
 
   function showRestartButton(){
@@ -77,7 +76,6 @@
     var add = document.getElementById('restart');
     add.className += "nohidden"
 
-    console.log("2")
   }
 
   function playAgain(){
@@ -129,7 +127,6 @@
       var add = document.getElementById('restart');
       add.classList.add("hidden");
 
-      console.log("3")
   }
 
   function beginAgain(){
@@ -156,7 +153,6 @@
         add.classList.add("hidden");
 
         showQuestion()
-        console.log("4")
   }
 
 //We show the next question, also we are leaving empty the input anytime that we answer a questions.
@@ -178,7 +174,6 @@
       if (counter < questions.length-1){
           letter.getElementsByTagName("div")[counter].classList.remove("flicker");
           counter++;
-          console.log(counter)
           startFunction();
       }
       else {
@@ -191,23 +186,19 @@
   function startFunction() {
       if (questions[counter].status === 0){
           showQuestion();
-          console.log("First if")
 
       }
       else if (counter === questions.length-1 && error + correct === questions.length){
           gameOver();
           classificationTable();
           showRestartButton();
-          console.log("Second if")
       }
       else if (counter === questions.length-1){
           restart();
-          console.log("Third if")
       }
       else {
           counter++
           startFunction();
-          console.log("Else status0")
       }
   }
 
@@ -268,7 +259,6 @@ counterCorrect()
 
       }else if(questions.length === correct + error){
         clearInterval(interval)
-        console.log('working')
       }
         }, 1000);
       }
